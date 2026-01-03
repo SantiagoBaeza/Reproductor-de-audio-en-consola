@@ -1,4 +1,4 @@
-[⬅️ Volver a "Ejercicios en C y C++"](https://github.com/SantiagoBaeza/programacion-en-C-Cpp)
+[⬅️ Volver a "Proyectos en C y C++"](https://github.com/SantiagoBaeza/C-y-C-/tree/main)
 
 # Reproductor de audio en consola
 
