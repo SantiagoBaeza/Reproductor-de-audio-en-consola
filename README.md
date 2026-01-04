@@ -2,16 +2,16 @@
 
 # Reproductor de audio en consola
 
-Este proyecto implementa un reproductor básico en C que permite al usuario seleccionar y reproducir canciones almacenadas en un archivo `.raw`.  
-La lógica se centra en organizar la información de cada pista, mostrar un menú interactivo y utilizar una función externa (`play_audio`) para la reproducción.  
+Este proyecto implementa un reproductor básico en C que permite al usuario seleccionar y reproducir canciones almacenadas en un archivo [.raw](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_list.raw).  
+La lógica se centra en organizar la información de cada pista, mostrar un menú interactivo y utilizar una función externa [play_audio](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_player.c) para la reproducción.  
 Además, se ofrece la opción de guardar la canción seleccionada en un nuevo archivo `.raw`.
 
 ---
 
 ## Contexto
 
-Este ejercicio fue parte de una práctica en clase, donde se nos proporcionó un archivo binario (`audio_list.raw`) con múltiples canciones y su metadata.  
-También se nos entregaron los archivos `audio_player.c` y `audio_player.h`, que contenían la función `play_audio(...)` ya implementada.  
+Este ejercicio fue parte de una práctica en clase, donde se nos proporcionó un archivo binario [audio_list.raw](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_list.raw) con múltiples canciones y su metadata.  
+También se nos entregaron los archivos [audio_player.c](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_player.c) y [audio_player.h](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_player.h), que contenían la función `play_audio(...)` ya implementada.  
 Nuestro objetivo era desarrollar el algoritmo que leyera la información, organizara las pistas en estructuras, y ofreciera una interfaz de consola para reproducirlas o guardarlas.  
 El foco estuvo en el manejo de memoria dinámica, lectura binaria con `fread`, uso de `struct`, y diseño de un menú interactivo.
 
@@ -21,11 +21,9 @@ El foco estuvo en el manejo de memoria dinámica, lectura binaria con `fread`, u
 
 ![imagen2](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/04%20Funcionamiento.jpg) 
 
-*(Podés agregar las imágenes cuando las tengas, usando el formato `![Texto alternativo](URL)`)*
-
 ---
 
-## Funcionalidad clave
+## Funcionalidad
 
 - Lectura de archivo `.raw` con `fread` para obtener:
   - Cantidad de canciones
@@ -53,9 +51,9 @@ Para compilar el proyecto, se siguió la metodología trabajada en clase:
 ![imagen1](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/03%20como%20usar%20DLL.jpg)
 
 
-De esta manera, el ejecutable `prog.exe` queda vinculado a la DLL `audio_player.dll`, permitiendo la reproducción de las pistas mediante la función `play_audio`.
+De esta manera, el ejecutable [prog.exe](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/prog.exe) queda vinculado a la DLL [audio_player.dll](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/audio_player.dll), permitiendo la reproducción de las pistas mediante la función `play_audio`.
 
-Este ejercicio fue una excelente práctica para reforzar conceptos importantes de programación en C, como el manejo de archivos binarios, estructuras, memoria dinámica y compilación modular con DLL.
+Este ejercicio fue una muy buena práctica para reforzar conceptos importantes de programación en C, como el manejo de archivos binarios, estructuras, memoria dinámica y compilación modular con DLL.
 
 ---
 
