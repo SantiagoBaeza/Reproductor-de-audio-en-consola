@@ -19,8 +19,7 @@ El foco estuvo en el manejo de memoria dinámica, lectura binaria con `fread`, u
 
 ## Capturas
 
-- **Captura 01**: Menú de selección de canciones en consola.  
-- **Captura 02**: Mensaje de error al fallar la reserva de memoria.  
+![imagen2](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/04%20Funcionamiento.jpg) 
 
 *(Podés agregar las imágenes cuando las tengas, usando el formato `![Texto alternativo](URL)`)*
 
@@ -51,7 +50,7 @@ El foco estuvo en el manejo de memoria dinámica, lectura binaria con `fread`, u
 ## Comentarios finales
 
 Para compilar el proyecto, se siguió la metodología trabajada en clase:
-![imagen1](enlace_aca)
+![imagen1](https://github.com/SantiagoBaeza/Reproductor-de-audio-en-consola/blob/main/03%20como%20usar%20DLL.jpg)
 
 
 De esta manera, el ejecutable `prog.exe` queda vinculado a la DLL `audio_player.dll`, permitiendo la reproducción de las pistas mediante la función `play_audio`.
